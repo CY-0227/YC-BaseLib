@@ -1,3 +1,4 @@
+
 #
 #  Be sure to run `pod spec lint YC-BaseLib.podspec' to ensure this is a
 #  valid spec and to remove all comments including this before submitting the spec.
@@ -99,7 +100,7 @@ Pod::Spec.new do |spec|
   end
 
   spec.subspec 'YC-BaseLibView' do |view|
-  	model.source_files = 'YC-BaseLib/YC-BaseLibView/*.{h,m}'
+  	view.source_files = 'YC-BaseLib/YC-BaseLibView/*.{h,m}'
   end
 
 
