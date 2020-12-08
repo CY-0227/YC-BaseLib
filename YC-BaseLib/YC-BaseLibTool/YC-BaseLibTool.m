@@ -10,8 +10,8 @@
 #import "UIViewController+Category.h"
 #import <CommonCrypto/CommonDigest.h>
 #import <AdSupport/AdSupport.h>
-#import <Masonry.h>
-#import <MBProgressHUD.h>
+//#import <Masonry.h>
+//#import <MBProgressHUD.h>
 
 @implementation YC_BaseLibTool
 

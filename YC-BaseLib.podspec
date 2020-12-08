@@ -17,7 +17,7 @@ Pod::Spec.new do |spec|
   #
 
   spec.name         = "YC-BaseLib"
-  spec.version      = "0.0.6"
+  spec.version      = "0.0.7"
   spec.summary      = "A short description of YC-BaseLib."
 
   # This description is used to generate tags and improve search results.
@@ -105,8 +105,6 @@ Pod::Spec.new do |spec|
 
   spec.subspec 'YC-BaseLibTool' do |tools|
   	tools.source_files = 'YC-BaseLib/YC-BaseLibTool/*.{h,m}'
-  	tools.dependency 'Masonry'
-  	tools.dependency 'MBProgressHUD'
   end
 
 
@@ -148,5 +146,8 @@ Pod::Spec.new do |spec|
 
   # spec.xcconfig = { "HEADER_SEARCH_PATHS" => "$(SDKROOT)/usr/include/libxml2" }
   # spec.dependency "JSONKit", "~> 1.4"
+
+  spec.dependency 'Masonry'
+  spec.dependency 'MBProgressHUD'
 
 end
