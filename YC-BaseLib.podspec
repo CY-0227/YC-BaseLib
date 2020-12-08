@@ -17,7 +17,7 @@ Pod::Spec.new do |spec|
   #
 
   spec.name         = "YC-BaseLib"
-  spec.version      = "0.0.5"
+  spec.version      = "0.0.6"
   spec.summary      = "A short description of YC-BaseLib."
 
   # This description is used to generate tags and improve search results.
@@ -103,7 +103,7 @@ Pod::Spec.new do |spec|
   	view.source_files = 'YC-BaseLib/YC-BaseLibView/*.{h,m}'
   end
 
-  spec.subspec 'YC-BaseLibView' do |tools|
+  spec.subspec 'YC-BaseLibTool' do |tools|
   	tools.source_files = 'YC-BaseLib/YC-BaseLibTool/*.{h,m}'
   	tools.dependency 'Masonry'
   	tools.dependency 'MBProgressHUD'
