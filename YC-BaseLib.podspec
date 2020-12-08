@@ -17,7 +17,7 @@ Pod::Spec.new do |spec|
   #
 
   spec.name         = "YC-BaseLib"
-  spec.version      = "0.0.4"
+  spec.version      = "0.0.5"
   spec.summary      = "A short description of YC-BaseLib."
 
   # This description is used to generate tags and improve search results.
@@ -132,7 +132,7 @@ Pod::Spec.new do |spec|
 
   # spec.framework  = "SomeFramework"
   # spec.frameworks = "SomeFramework", "AnotherFramework"
-  spec.frameworks  = 'Foundation', 'UIKit', 'AdSupport', 'CommonCrypto'
+  spec.frameworks  = 'Foundation', 'UIKit', 'AdSupport'
 
   # spec.library   = "iconv"
   # spec.libraries = "iconv", "xml2"
