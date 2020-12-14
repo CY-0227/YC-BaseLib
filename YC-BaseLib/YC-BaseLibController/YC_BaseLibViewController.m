@@ -6,7 +6,7 @@
 //  Copyright © 2020 YC_BaseLib Inc All rights reserved.
 //
 
-#import "YC-BaseLibViewController.h"
+#import "YC_BaseLibViewController.h"
 
 @interface YC_BaseLibViewController ()
 

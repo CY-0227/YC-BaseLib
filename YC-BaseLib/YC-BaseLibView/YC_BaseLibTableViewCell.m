@@ -6,7 +6,7 @@
 //  Copyright © 2020 YC_BaseLib Inc All rights reserved.
 //
 
-#import "YC-BaseLibTableViewCell.h"
+#import "YC_BaseLibTableViewCell.h"
 
 @implementation YC_BaseLibTableViewCell
 

@@ -6,7 +6,7 @@
 //  Copyright © 2020 com.candy.luck. All rights reserved.
 //
 
-#import "YC-BaseLibModel.h"
+#import "YC_BaseLibModel.h"
 
 @implementation YC_BaseLibModel
 

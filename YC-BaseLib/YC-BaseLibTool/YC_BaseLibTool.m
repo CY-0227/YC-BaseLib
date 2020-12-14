@@ -6,7 +6,7 @@
 //  Copyright © 2020 YC_BaseLib Inc All rights reserved.
 //
 
-#import "YC-BaseLibTool.h"
+#import "YC_BaseLibToolh"
 #import "UIViewController+Category.h"
 #import <CommonCrypto/CommonDigest.h>
 #import <AdSupport/AdSupport.h>

@@ -6,7 +6,7 @@
 //  Copyright © 2020 YC_BaseLib Inc All rights reserved.
 //
 
-#import "YC-BaseLibTabBarViewController.h"
+#import "YC_BaseLibTabBarViewController.h"
 
 @interface YC_BaseLibTabBarViewController ()
 

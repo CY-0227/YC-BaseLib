@@ -6,7 +6,7 @@
 //  Copyright © 2020 YC-BaseLib Inc All rights reserved.
 //
 
-#import "YC-BaseLibView.h"
+#import "YC_BaseLibView.h"
 
 @implementation YC_BaseLibView
 
