@@ -1,9 +1,9 @@
 //
 //  UIButton+Category.h
-//  Test5
+//  YC_BaseLib
 //
 //  Created by candy on 2020/12/7.
-//  Copyright © 2020 com.candy.luck. All rights reserved.
+//  Copyright © 2020 YC_BaseLib Inc All rights reserved.
 //
 
 #import <UIKit/UIKit.h>

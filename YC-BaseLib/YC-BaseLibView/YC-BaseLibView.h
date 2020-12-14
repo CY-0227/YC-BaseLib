@@ -1,9 +1,9 @@
 //
 //  YC-BaseLibView.h
-//  Test3
+//  YC-BaseLib
 //
-//  Created by chenyun on 2020/12/7.
-//  Copyright © 2020 Luochen. All rights reserved.
+//  Created by YC-BaseLib on 2020/12/14.
+//  Copyright © 2020 YC-BaseLib Inc All rights reserved.
 //
 
 #import <UIKit/UIKit.h>
@@ -11,6 +11,8 @@
 NS_ASSUME_NONNULL_BEGIN
 
 @interface YC_BaseLibView : UIView
+
+- (void)setupYC_BaseLibUI;
 
 @end
 

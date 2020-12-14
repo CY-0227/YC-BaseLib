@@ -17,15 +17,15 @@ Pod::Spec.new do |spec|
   #
 
   spec.name         = "YC-BaseLib"
-  spec.version      = "0.0.7"
-  spec.summary      = "A short description of YC-BaseLib."
+  spec.version      = "0.0.8"
+  spec.summary      = "基础框架库，不断完善中."
 
   # This description is used to generate tags and improve search results.
   #   * Think: What does it do? Why did you write it? What is the focus?
   #   * Try to keep it short, snappy and to the point.
   #   * Write the description between the DESC delimiters below.
   #   * Finally, don't worry about the indent, CocoaPods strips it!
-  spec.description  = 'baselib'
+  spec.description  = '基础框架库，不断完善中.'
 
   spec.homepage     = "https://github.com/CY-0227/YC-BaseLib"
   # spec.screenshots  = "www.example.com/screenshots_1.gif", "www.example.com/screenshots_2.gif"
@@ -64,7 +64,7 @@ Pod::Spec.new do |spec|
   #
 
   # spec.platform     = :ios
-  spec.platform     = :ios, "9.0"
+  spec.platform     = :ios, "10.0"
 
   #  When using multiple platforms
   # spec.ios.deployment_target = "5.0"
@@ -105,6 +105,10 @@ Pod::Spec.new do |spec|
 
   spec.subspec 'YC-BaseLibTool' do |tools|
   	tools.source_files = 'YC-BaseLib/YC-BaseLibTool/*.{h,m}'
+  end
+
+  spec.subspec 'YC-BaseLibController' do |controller|
+ 	controller.source_files = 'YC-BaseLib/YC-BaseLibController/*.{h,m}'
   end
 
 

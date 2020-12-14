@@ -1,21 +1,23 @@
 //
 //  YC-BaseLibView.m
-//  Test3
+//  YC-BaseLib
 //
-//  Created by chenyun on 2020/12/7.
-//  Copyright © 2020 Luochen. All rights reserved.
+//  Created by YC-BaseLib on 2020/12/14.
+//  Copyright © 2020 YC-BaseLib Inc All rights reserved.
 //
 
 #import "YC-BaseLibView.h"
 
 @implementation YC_BaseLibView
 
-/*
-// Only override drawRect: if you perform custom drawing.
-// An empty implementation adversely affects performance during animation.
-- (void)drawRect:(CGRect)rect {
-    // Drawing code
+- (instancetype)initWithFrame:(CGRect)frame {
+    self = [super initWithFrame:frame];
+    if (self) {
+        [self setupYC_BaseLibUI];
+    }
+    return self;
 }
-*/
+
+- (void)setupYC_BaseLibUI {}
 
 @end

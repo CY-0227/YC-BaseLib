@@ -1,8 +1,8 @@
 //
-//  UIViewController+Category.h
+//  YC-BaseLibTableViewCell.h
 //  YC_BaseLib
 //
-//  Created by candy on 2020/12/7.
+//  Created by YC_BaseLib on 2020/12/14.
 //  Copyright © 2020 YC_BaseLib Inc All rights reserved.
 //
 
@@ -10,9 +10,9 @@
 
 NS_ASSUME_NONNULL_BEGIN
 
-@interface UIViewController (Category)
+@interface YC_BaseLibTableViewCell : UITableViewCell
 
-@property (assign, nonatomic) BOOL isOnceNeedly;
+- (void)setupYC_BaseLibUI;
 
 @end
 

@@ -1,8 +1,8 @@
 //
-//  UIViewController+Category.h
+//  YC-BaseLibNavigationViewController.h
 //  YC_BaseLib
 //
-//  Created by candy on 2020/12/7.
+//  Created by YC_BaseLib on 2020/12/14.
 //  Copyright © 2020 YC_BaseLib Inc All rights reserved.
 //
 
@@ -10,9 +10,7 @@
 
 NS_ASSUME_NONNULL_BEGIN
 
-@interface UIViewController (Category)
-
-@property (assign, nonatomic) BOOL isOnceNeedly;
+@interface YC_BaseLibNavigationViewController : UINavigationController
 
 @end
 

@@ -1,9 +1,9 @@
 //
 //  YC-BaseLibModel.m
-//  Test3
+//  Test5
 //
-//  Created by chenyun on 2020/12/7.
-//  Copyright © 2020 Luochen. All rights reserved.
+//  Created by chenyun on 2020/12/14.
+//  Copyright © 2020 com.candy.luck. All rights reserved.
 //
 
 #import "YC-BaseLibModel.h"
