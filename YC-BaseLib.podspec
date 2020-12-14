@@ -17,7 +17,7 @@ Pod::Spec.new do |spec|
   #
 
   spec.name         = "YC-BaseLib"
-  spec.version      = "0.0.8"
+  spec.version      = "0.0.9"
   spec.summary      = "基础框架库，不断完善中."
 
   # This description is used to generate tags and improve search results.
@@ -94,6 +94,8 @@ Pod::Spec.new do |spec|
   # spec.exclude_files = "Classes/Exclude"
 
   # spec.public_header_files = "Classes/**/*.h"
+
+  spec.public_header_files = "YC-BaseLib/*.h"
 
   spec.subspec 'YC-BaseLibModel' do |model|
   	model.source_files = 'YC-BaseLib/YC-BaseLibModel/*.{h,m}'
