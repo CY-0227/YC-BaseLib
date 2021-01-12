@@ -17,7 +17,7 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     // Do any additional setup after loading the view.
-    [self setupYC_BaseLibUI];
+//    [self setupYC_BaseLibUI];
 }
 
 - (void)setupYC_BaseLibUI {}

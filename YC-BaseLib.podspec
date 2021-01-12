@@ -17,7 +17,7 @@ Pod::Spec.new do |spec|
   #
 
   spec.name         = "YC-BaseLib"
-  spec.version      = "0.0.12"
+  spec.version      = "0.0.13"
   spec.summary      = "基础框架库，不断完善中."
 
   # This description is used to generate tags and improve search results.
