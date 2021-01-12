@@ -145,7 +145,7 @@
 + (void)createRoundedUIView:(UIView *)view frameRect:(CGRect)rect corners:(UIRectCorner)corners radius:(CGFloat)radius {
     UIBezierPath *maskPath = [UIBezierPath bezierPathWithRoundedRect:rect cornerRadius:radius];
     if (corners != UIRectCornerAllCorners) {
-        maskPath = [UIBezierPath bezierPathWithRoundedRect:rect byRoundingCorners:corners cornerRadii:CGSizeMake(corners, radius)];
+        maskPath = [UIBezierPath bezierPathWithRoundedRect:rect byRoundingCorners:corners cornerRadii:CGSizeMake(radius, radius)];
     }
     CAShapeLayer *maskLayer = [[CAShapeLayer alloc] init];
     maskLayer.frame = rect;
@@ -162,7 +162,7 @@
     view.layer.shadowColor = shadowColor.CGColor;
     view.layer.shadowOffset = offset;
     view.layer.shadowRadius = shadowRadius;
-    view.layer.opaque = opacity;
+    view.layer.shadowOpacity = opacity;
 }
 
 + (void)createBorderShadowUIView:(UIView *)view borderColor:(UIColor *)borderColor borderWidth:(CGFloat)borderWidth shadowColor:(UIColor *)shadowColor offset:(CGSize)offset shadowRadius:(CGFloat)shadowRadius opacity:(CGFloat)opacity {
